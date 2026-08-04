@@ -14,3 +14,7 @@ def runSelenium(jobname)
 {
       sh "java -jar /var/lib/jenkins/workspace/${jobname}/testing.jar"
 }
+def runSelenium(jobname)
+{
+      sh "java -jar /var/lib/jenkins/workspace/${jobname}/testing.jar"
+}
